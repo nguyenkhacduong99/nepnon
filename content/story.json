@@ -1,0 +1,152 @@
+{
+  "homeStory": [
+    {
+      "eyebrow": "Mẹ và nghề nón",
+      "title": "Đôi tay chưa bao giờ rời chiếc nón",
+      "body": [
+        "Ở làng Quảng Nạp, mẹ vẫn giữ thói quen ngồi bên hiên nhà, xếp lá, khâu nón mỗi ngày. [Gia đình bổ sung: mẹ bắt đầu học nghề từ khi nào, học từ ai.]"
+      ],
+      "draft": true
+    },
+    {
+      "eyebrow": "Sự tỉ mỉ",
+      "title": "Mỗi chiếc nón là nhiều giờ ngồi bên lá",
+      "body": [
+        "Một chiếc nón cần qua nhiều công đoạn: chọn lá, phơi lá, là lá, dựng khung, xếp lá, khâu từng vòng. Không có công đoạn nào làm bằng máy."
+      ]
+    },
+    {
+      "eyebrow": "Làng nghề",
+      "title": "Quảng Nạp, Thái Bình",
+      "body": [
+        "Nón của NẾP NÓN được làm tại làng nghề Quảng Nạp, Thái Bình — nơi nhiều gia đình vẫn giữ nghề làm nón. [Gia đình bổ sung thông tin đã kiểm chứng về làng nghề.]"
+      ],
+      "draft": true
+    },
+    {
+      "eyebrow": "Điều chúng tôi mong",
+      "title": "Gìn giữ và trao tay một nét đẹp Việt",
+      "body": [
+        "NẾP NÓN ra đời từ mong muốn để nghề của mẹ được tiếp tục, và để những chiếc nón làm bằng tay đến được với nhiều người hơn — trong nước và ngoài nước."
+      ]
+    }
+  ],
+  "motherStory": [
+    {
+      "eyebrow": "Chương 1",
+      "title": "Câu chuyện của mẹ",
+      "body": [
+        "Mẹ sinh ra và lớn lên ở làng Quảng Nạp. Tuổi thơ của mẹ gắn với tiếng lá khô xào xạc và những buổi chiều ngồi xem bà, xem mẹ khâu nón.",
+        "[Bổ sung: mẹ bắt đầu tự làm chiếc nón đầu tiên khi nào? Kỷ niệm đáng nhớ nhất với nghề là gì?]"
+      ],
+      "draft": true
+    },
+    {
+      "eyebrow": "Chương 2",
+      "title": "Quảng Nạp — nơi lá thành nón",
+      "body": [
+        "Quảng Nạp thuộc tỉnh Thái Bình, một vùng quê đồng bằng Bắc Bộ. Ở đây, làm nón là nghề của nhiều gia đình.",
+        "[Bổ sung: thông tin đã kiểm chứng về làng nghề — số hộ còn làm nghề, đặc điểm nón Quảng Nạp... Không đưa thông tin chưa chắc chắn.]"
+      ],
+      "draft": true
+    },
+    {
+      "eyebrow": "Chương 3",
+      "title": "Giá trị của nghề thủ công",
+      "body": [
+        "Một chiếc nón làm bằng tay không hoàn hảo như sản phẩm công nghiệp. Mỗi chiếc có màu lá riêng, đường khâu riêng — dấu vết của người làm ra nó.",
+        "Chúng tôi tin rằng đó chính là điều làm nên giá trị: sự kiên nhẫn, sự tỉ mỉ và tình cảm của người thợ."
+      ]
+    }
+  ],
+  "brandPhilosophy": [
+    {
+      "title": "Thật",
+      "text": "Thông tin sản phẩm trung thực. Ảnh thật, giá rõ ràng, không thổi phồng."
+    },
+    {
+      "title": "Chậm",
+      "text": "Mỗi ngày chỉ khoảng 10–20 chiếc nón. Chúng tôi chọn làm kỹ thay vì làm nhiều."
+    },
+    {
+      "title": "Thương",
+      "text": "Từng chiếc nón được gói ghém cẩn thận, như gửi một món quà cho người thân."
+    }
+  ],
+  "craftSteps": [
+    {
+      "step": 1,
+      "title": "Chọn nguyên liệu",
+      "summary": "Chọn lá nón và tre làm vành.",
+      "detail": "Lá được chọn theo độ dài, độ dày và màu sắc. Tre được chẻ, vót thành những nan tròn đều để uốn thành các vòng vành.",
+      "image": {
+        "src": "/images/craftsmanship/step-1-nguyen-lieu.svg",
+        "alt": "Chọn lá nón và tre làm vành",
+        "width": 900,
+        "height": 1100,
+        "placeholder": true
+      }
+    },
+    {
+      "step": 2,
+      "title": "Xử lý và chuẩn bị lá",
+      "summary": "Phơi, là phẳng và phân loại lá.",
+      "detail": "Lá được phơi để khô và chuyển màu sáng, sau đó là (ủi) cho phẳng. Những lá đẹp nhất được dành cho lớp ngoài cùng.",
+      "image": {
+        "src": "/images/craftsmanship/step-2-xu-ly-la.svg",
+        "alt": "Phơi và là phẳng lá nón",
+        "width": 900,
+        "height": 1100,
+        "placeholder": true
+      }
+    },
+    {
+      "step": 3,
+      "title": "Tạo khung và chằm nón",
+      "summary": "Dựng khung, xếp lá, khâu từng vòng.",
+      "detail": "Các vòng vành được cố định trên khuôn để tạo dáng nón. Lá được xếp lớp đều tay rồi khâu (chằm) theo từng vòng — đây là công đoạn cần nhiều thời gian và sự khéo léo nhất.",
+      "image": {
+        "src": "/images/craftsmanship/step-3-khung-chang.svg",
+        "alt": "Dựng khung và chằm nón",
+        "width": 900,
+        "height": 1100,
+        "placeholder": true
+      }
+    },
+    {
+      "step": 4,
+      "title": "Hoàn thiện sản phẩm",
+      "summary": "Tháo khuôn, kiểm tra, làm đẹp.",
+      "detail": "Nón được tháo khỏi khuôn, kiểm tra lại từng đường khâu, cắt tỉa phần lá thừa và gắn quai nếu khách đặt. Sau đó nón được đóng gói cẩn thận trước khi gửi đi.",
+      "image": {
+        "src": "/images/craftsmanship/step-4-hoan-thien.svg",
+        "alt": "Chiếc nón hoàn thiện",
+        "width": 900,
+        "height": 1100,
+        "placeholder": true
+      }
+    }
+  ],
+  "trustPoints": [
+    {
+      "icon": "hand",
+      "title": "Thủ công truyền thống",
+      "text": "Làm bằng tay tại làng nghề, không qua máy móc."
+    },
+    {
+      "icon": "scissors",
+      "title": "Tỉ mỉ trong từng công đoạn",
+      "text": "Mỗi chiếc nón được kiểm tra lại trước khi gửi đi."
+    },
+    {
+      "icon": "package",
+      "title": "Đóng gói cẩn thận",
+      "text": "Chèn lót kỹ để nón giữ dáng khi vận chuyển."
+    },
+    {
+      "icon": "message",
+      "title": "Tư vấn và hỗ trợ tận tâm",
+      "text": "Trao đổi trực tiếp qua Zalo, điện thoại trước và sau khi mua."
+    }
+  ]
+}

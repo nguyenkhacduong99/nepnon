@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "quote": "Nội dung đánh giá mẫu — ví dụ cảm nhận của khách khi nhận nón và cách sản phẩm được đóng gói.",
+      "author": "Tên khách hàng",
+      "context": "Khách mua lẻ · Thành phố",
+      "demo": true
+    },
+    {
+      "quote": "Nội dung đánh giá mẫu — ví dụ phản hồi của khách mua nón làm quà tặng cho người thân ở nước ngoài.",
+      "author": "Tên khách hàng",
+      "context": "Khách mua quà tặng",
+      "demo": true
+    },
+    {
+      "quote": "Nội dung đánh giá mẫu — ví dụ phản hồi của doanh nghiệp đặt nón cho sự kiện.",
+      "author": "Tên doanh nghiệp",
+      "context": "Đơn đặt theo yêu cầu",
+      "demo": true
+    }
+  ]
+}

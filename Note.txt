@@ -1,0 +1,694 @@
+# MASTER PROMPT – BUILD NẾP NÓN E-COMMERCE WEBSITE
+
+You are a senior product designer, brand strategist, UX/UI expert, conversion rate optimization specialist, and senior full-stack engineer.
+
+Your task is to design and develop a complete, production-quality e-commerce website for a Vietnamese handcrafted conical hat brand.
+
+Do not build a generic online shop. Build a premium Vietnamese artisan brand website that uses storytelling, visual identity, product presentation, and emotional connection to sell handcrafted products.
+
+You are responsible for both the creative direction and the technical implementation.
+
+---
+
+# 1. BUSINESS BACKGROUND
+
+## Brand information
+
+- Working brand name: NẾP NÓN
+- Tagline: Giữ nét đẹp Việt – Gửi trọn yêu thương.
+- Origin: Quảng Nạp traditional hat-making village, Thái Bình, Vietnam.
+- Main product: Traditional Vietnamese conical hats (Nón Lá).
+- Production capacity: Approximately 10–20 hats per day.
+- Production method: Handmade by the founder's mother and family artisans.
+- Business objective: Build a recognizable independent brand for long-term commercial growth.
+
+## Target customers
+
+1. Vietnamese customers buying traditional conical hats for everyday use.
+2. Tourists looking for authentic Vietnamese souvenirs.
+3. Customers buying Vietnamese cultural gifts.
+4. Businesses ordering handcrafted products for events and gifts.
+5. International customers interested in Vietnamese traditional crafts.
+
+## Brand positioning
+
+Position NẾP NÓN as an authentic Vietnamese artisan brand.
+
+The key differentiator is NOT cheap pricing.
+
+The key differentiators are:
+- Authentic handmade craftsmanship.
+- The personal story of the mother behind every product.
+- Traditional Vietnamese cultural identity.
+- Honest product information.
+- Careful packaging and customer service.
+
+Never invent historical facts, certifications, awards, artisan achievements, customer testimonials, or production claims.
+
+Use editable placeholder content wherever verified information is unavailable.
+
+---
+
+# 2. CREATIVE DIRECTION & BRAND IDENTITY
+
+Create a premium, elegant, warm, authentic Vietnamese visual identity.
+
+## Visual concept
+
+"Vietnamese Heritage meets Modern E-commerce"
+
+The website should feel like:
+- A premium Vietnamese craft brand.
+- A modern lifestyle boutique.
+- A beautiful editorial magazine about traditional Vietnamese culture.
+- A trustworthy online shop.
+
+Avoid:
+- Generic marketplace layouts.
+- Overly colorful interfaces.
+- Excessive gradients.
+- Cheap-looking product cards.
+- Excessive animations.
+- Overcrowded layouts.
+- Corporate or technology-company aesthetics.
+
+## Color palette
+
+Use these colors consistently:
+
+- Primary forest green: #263D25
+- Secondary dark green: #405A35
+- Warm ivory: #F8F4EA
+- Natural bamboo beige: #E8D9BD
+- Warm brown: #8B6846
+- Text dark: #292820
+- Muted text: #777367
+- White: #FFFFFF
+
+## Typography
+
+Use a combination of:
+- Elegant Vietnamese-compatible serif typography for headlines.
+- Modern sans-serif typography for navigation, product details, and body text.
+- Handwritten/script typography sparingly for emotional storytelling.
+
+Ensure full Vietnamese Unicode support and proper diacritics.
+
+## Photography direction
+
+Photography is extremely important.
+
+Prioritize:
+1. Real photographs of the mother making conical hats.
+2. Close-up photographs of bamboo frames and palm leaves.
+3. Finished conical hats on neutral backgrounds.
+4. Vietnamese countryside and traditional village settings.
+5. Lifestyle photographs showing people wearing conical hats.
+
+Do not present AI-generated people or products as authentic photographs of the mother or actual products.
+
+Create a clearly documented image asset structure so real photographs can be added later without changing components.
+
+---
+
+# 3. WEBSITE INFORMATION ARCHITECTURE
+
+Build the following pages:
+
+## A. HOMEPAGE – Trang chủ
+
+This is the most important page.
+
+It must tell a compelling story and lead customers toward purchasing.
+
+### Section 1: Announcement bar
+
+Display:
+- Sản phẩm thủ công từ làng nghề Thái Bình.
+- Gìn giữ nét đẹp Việt.
+- Nationwide shipping.
+
+### Section 2: Header and navigation
+
+Logo: NẾP NÓN.
+
+Navigation:
+- Trang chủ
+- Câu chuyện
+- Sản phẩm
+- Quy trình làm nón
+- Góc văn hóa
+- Liên hệ
+
+Header features:
+- Search.
+- Shopping cart.
+- Zalo contact / Order button.
+
+Sticky navigation on scroll.
+
+### Section 3: Hero banner
+
+Create a visually striking full-width hero.
+
+Headline:
+
+"Nón lá Việt Nam"
+
+Subheadline:
+
+"Tinh hoa làng nghề – Gửi trọn yêu thương"
+
+Supporting text:
+
+"Từ đôi tay của mẹ, những chiếc nón lá mộc mạc mang đậm hồn Việt được làm nên bằng sự tỉ mỉ và tình yêu nghề."
+
+Primary CTA: "Khám phá sản phẩm"
+
+Secondary CTA: "Câu chuyện của mẹ"
+
+Use a large editorial photograph of a Vietnamese artisan making a traditional conical hat.
+
+The first screen must immediately communicate the brand, product, origin, and emotional value.
+
+### Section 4: Featured products
+
+Title: "Những chiếc nón mang hồn Việt"
+
+Display product cards with:
+- Product photograph.
+- Product name.
+- Price.
+- Short description.
+- Product details button.
+- Add to cart button.
+
+Initial product categories:
+- Nón lá truyền thống.
+- Nón lá loại đặc biệt.
+- Nón lá quà tặng.
+- Nón lá đặt theo yêu cầu.
+
+All product information must be managed through structured data, not hardcoded into individual components.
+
+Use clearly marked sample prices that can be replaced with actual prices.
+
+### Section 5: Brand storytelling
+
+Title:
+
+"Chiếc nón lá và tình yêu của mẹ"
+
+Tell the story of the mother who continues making traditional conical hats.
+
+Storytelling structure:
+1. A mother and her connection to the craft.
+2. The dedication behind every handmade hat.
+3. The traditional craft village in Quảng Nạp, Thái Bình.
+4. The desire to preserve and share Vietnamese cultural beauty.
+
+Use a large emotional photograph and beautiful editorial typography.
+
+CTA: "Khám phá câu chuyện của chúng tôi"
+
+Do not invent personal details. Keep the story editable until the family supplies the real story.
+
+### Section 6: Craftsmanship process
+
+Title: "Từ đôi tay người thợ – Thành hình chiếc nón"
+
+Present four visual stages:
+
+1. Chọn nguyên liệu.
+2. Xử lý và chuẩn bị lá.
+3. Tạo khung và chằm nón.
+4. Hoàn thiện sản phẩm.
+
+Use photographs, short explanations, and a clean horizontal layout on desktop.
+
+### Section 7: Why choose NẾP NÓN?
+
+Show four trust elements:
+
+- Thủ công truyền thống.
+- Tỉ mỉ trong từng công đoạn.
+- Đóng gói cẩn thận.
+- Tư vấn và hỗ trợ tận tâm.
+
+Only make claims that the business can actually fulfill.
+
+### Section 8: Cultural storytelling
+
+Title: "Nón lá – Một nét đẹp của người Việt"
+
+Introduce the cultural meaning of the Vietnamese conical hat.
+
+Include editorial photographs and links to related articles.
+
+### Section 9: Testimonials
+
+Build a testimonial component.
+
+Use clearly labeled demonstration content only. Do not fabricate real customer reviews.
+
+### Section 10: Footer
+
+Include:
+- Brand logo.
+- Short brand introduction.
+- Contact information.
+- Zalo.
+- Facebook.
+- TikTok.
+- Product categories.
+- Shipping and return policies.
+- Privacy policy.
+- Copyright.
+
+All contact information must be configurable.
+
+---
+
+# 4. PRODUCT EXPERIENCE
+
+Build a complete product browsing experience.
+
+## Product listing page
+
+Features:
+- Product grid.
+- Category filters.
+- Price sorting.
+- Search.
+- Responsive layout.
+- Product availability.
+
+## Product detail page
+
+Each product should have:
+- Large image gallery.
+- Product name.
+- Price.
+- Detailed description.
+- Materials.
+- Dimensions.
+- Weight where available.
+- Handmade characteristics.
+- Care instructions.
+- Quantity selector.
+- Add to cart.
+- Zalo order CTA.
+- Related products.
+
+Include a prominent note:
+
+"Mỗi chiếc nón được làm thủ công nên có thể có những khác biệt nhỏ tự nhiên. Đây chính là nét riêng của sản phẩm thủ công."
+
+Do not invent product specifications. Use editable sample data where necessary.
+
+## Shopping cart
+
+Implement:
+- Add/remove products.
+- Change quantities.
+- Calculate subtotal.
+- Persist cart using localStorage.
+- Empty cart state.
+- Checkout summary.
+
+## Checkout / Order inquiry
+
+For the first version, implement a practical Vietnamese ordering flow.
+
+Collect:
+- Customer name.
+- Phone number.
+- Delivery address.
+- Selected products.
+- Quantity.
+- Customer notes.
+
+Provide:
+- Order summary.
+- Copy order information.
+- Zalo order handoff using a configurable contact link.
+
+Do not pretend that an order has been saved to a server or that payment has been completed.
+
+Do not implement fake payment gateways.
+
+Make the checkout architecture extensible for future payment integration.
+
+---
+
+# 5. BRAND STORY PAGE
+
+Create a dedicated page called:
+
+"CÂU CHUYỆN CỦA MẸ"
+
+This page should be emotionally engaging.
+
+Suggested structure:
+
+1. Full-width hero photograph.
+2. Headline: "Có những điều đẹp đẽ, nên được gìn giữ."
+3. The mother's personal story.
+4. The connection to Quảng Nạp, Thái Bình.
+5. The traditional craft and its values.
+6. Real photographs from the workshop.
+7. The process of making a conical hat.
+8. Brand philosophy.
+9. CTA: "Mang một nét đẹp Việt về nhà".
+
+The design should feel like a documentary editorial, not a sales landing page.
+
+---
+
+# 6. MOBILE-FIRST RESPONSIVE DESIGN
+
+Most customers may access the website from smartphones.
+
+Mobile experience is a priority.
+
+Requirements:
+- Fully responsive.
+- Mobile navigation drawer.
+- Touch-friendly buttons.
+- Product cards optimized for small screens.
+- Fast-loading images.
+- Fixed mobile Zalo contact button.
+- Easy-to-use cart and checkout.
+- No horizontal overflow.
+- Readable Vietnamese typography.
+
+Test at:
+- 375px.
+- 390px.
+- 430px.
+- 768px.
+- 1024px.
+- 1440px.
+
+---
+
+# 7. TECHNICAL REQUIREMENTS
+
+First inspect the existing project directory.
+
+If an existing project is present:
+- Understand its architecture.
+- Inspect package.json and existing dependencies.
+- Preserve working features.
+- Reuse existing conventions.
+- Do not overwrite unrelated files.
+
+If the repository is empty, use this preferred stack:
+
+- Next.js with App Router.
+- TypeScript.
+- Tailwind CSS.
+- Reusable React components.
+- Lucide icons.
+- Local structured product data.
+
+Use a maintainable architecture.
+
+Suggested structure:
+
+src/
+  app/
+    page.tsx
+    products/
+      page.tsx
+      [slug]/
+        page.tsx
+    story/
+      page.tsx
+    craftsmanship/
+      page.tsx
+    culture/
+      page.tsx
+    contact/
+      page.tsx
+    cart/
+      page.tsx
+    checkout/
+      page.tsx
+
+  components/
+    layout/
+    home/
+    products/
+    cart/
+    storytelling/
+    common/
+
+  data/
+    products.ts
+    categories.ts
+    testimonials.ts
+    site-config.ts
+
+  lib/
+    cart.ts
+    format.ts
+    seo.ts
+
+  types/
+    product.ts
+    order.ts
+
+public/
+  images/
+    hero/
+    products/
+    story/
+    craftsmanship/
+    culture/
+  logo/
+
+Adapt this structure when necessary.
+
+Important:
+- Use reusable components.
+- Keep business data separate from UI.
+- Use strong TypeScript types.
+- Avoid unnecessary dependencies.
+- Use semantic HTML.
+- Handle loading, empty, and error states.
+- Avoid duplicated components.
+- Keep the code easy to maintain and extend.
+
+---
+
+# 8. SEO AND MARKETING
+
+Optimize the website for Vietnamese search queries.
+
+Primary keywords:
+- Nón lá Việt Nam.
+- Nón lá thủ công.
+- Nón lá truyền thống.
+- Mua nón lá.
+- Nón lá Thái Bình.
+- Nón lá làng nghề Quảng Nạp.
+- Nón lá làm quà tặng.
+
+Implement:
+- Unique page titles.
+- Meta descriptions.
+- Open Graph metadata.
+- Canonical URLs.
+- Sitemap.
+- robots.txt.
+- Structured data for products and organization where appropriate.
+- Image alt text.
+- Semantic heading structure.
+
+Prepare the architecture for future English-language support.
+
+---
+
+# 9. PERFORMANCE AND QUALITY
+
+Requirements:
+- Optimize images.
+- Use modern image formats when available.
+- Lazy-load below-the-fold images.
+- Avoid layout shifts.
+- Minimize unnecessary JavaScript.
+- Optimize font loading.
+- Ensure accessibility.
+- Provide proper focus states.
+- Use appropriate contrast.
+- No broken links.
+- No console errors.
+- No TypeScript errors.
+- No fake buttons.
+- No placeholder links presented as working features.
+
+Target good Core Web Vitals and Lighthouse performance.
+
+---
+
+# 10. CONFIGURATION AND FUTURE EXPANSION
+
+Create a central configuration file for:
+
+- Brand name.
+- Tagline.
+- Business address.
+- Phone number.
+- Zalo link.
+- Facebook link.
+- TikTok link.
+- Email.
+- Logo.
+- Currency.
+- Social links.
+
+The website must be easy to extend with:
+
+- Admin dashboard.
+- Product management.
+- Inventory management.
+- Order management.
+- Real database.
+- Customer accounts.
+- Online payment.
+- Multi-language support.
+- Analytics and marketing tracking.
+
+Do not build unnecessary enterprise features in the first release.
+
+---
+
+# 11. DESIGN QUALITY EXPECTATIONS
+
+Think like a senior creative director.
+
+Before coding:
+1. Define the design system.
+2. Define the visual hierarchy.
+3. Define the customer journey.
+4. Define the storytelling structure.
+5. Define the conversion points.
+
+The result must look like a professionally designed Vietnamese artisan brand website, not a generic AI-generated template.
+
+Pay special attention to:
+- Hero composition.
+- Product photography.
+- Whitespace.
+- Typography.
+- Section transitions.
+- Visual consistency.
+- Emotional storytelling.
+- Purchase conversion.
+
+Do not use excessive rounded cards everywhere.
+
+Do not make every section look identical.
+
+Create a distinctive visual rhythm.
+
+---
+
+# 12. EXECUTION WORKFLOW
+
+Work in the following phases.
+
+## Phase 1 – Analyze and plan
+
+Inspect the project.
+
+Produce:
+- Architecture assessment.
+- Technical implementation plan.
+- Page structure.
+- Component structure.
+- Design system.
+
+Identify missing assets and information.
+
+Do not stop after writing the plan. Continue implementation unless a genuinely blocking decision requires my input.
+
+## Phase 2 – Build the visual foundation
+
+Implement:
+- Global styles.
+- Fonts.
+- Colors.
+- Header.
+- Footer.
+- Responsive navigation.
+- Reusable buttons and components.
+
+## Phase 3 – Build the homepage
+
+Implement every homepage section described above.
+
+Prioritize high-quality visual design.
+
+## Phase 4 – Build commerce features
+
+Implement:
+- Product listing.
+- Product details.
+- Cart.
+- Checkout/order inquiry.
+- Zalo handoff.
+
+## Phase 5 – Build storytelling pages
+
+Implement:
+- Brand story.
+- Craftsmanship.
+- Cultural content.
+- Contact page.
+
+## Phase 6 – Test and refine
+
+Run:
+- TypeScript checks.
+- Production build.
+- Lint checks.
+- Responsive checks.
+- Link checks.
+- Interaction checks.
+
+Fix errors before considering the task complete.
+
+## Phase 7 – Final delivery
+
+Provide:
+1. Summary of completed features.
+2. Project structure.
+3. How to run locally.
+4. How to build for production.
+5. How to deploy.
+6. Where to replace product photographs.
+7. Where to edit prices and product information.
+8. Where to configure Zalo and contact information.
+9. Remaining tasks that require real business information.
+
+---
+
+# FINAL INSTRUCTION
+
+Do not just generate code that technically works.
+
+Build a brand experience that makes customers feel:
+
+"This is not just a conical hat. This is a handmade piece of Vietnamese culture, created by a real person with dedication and love."
+
+The website should communicate the story of a mother, the traditional craft of Quảng Nạp, and the beauty of Vietnamese culture.
+
+The ultimate goal is to turn NẾP NÓN into a trustworthy, recognizable, commercially viable Vietnamese artisan brand.
+
+Start by inspecting the project and then execute the implementation systematically.
+
+Do not ask me to provide every detail before starting. Use sensible defaults, clearly mark unknown information, and make all business content configurable.
+
+Do not stop at a static mockup. Deliver a functioning, responsive website with real interactions.

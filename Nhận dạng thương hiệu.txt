@@ -1,0 +1,159 @@
+NẾP NÓN – OFFICIAL BRAND GUIDELINE IMPLEMENTATION
+You are implementing the official brand identity for NẾP NÓN.
+Follow this brand guideline consistently across every page, component, image treatment, and customer interaction.
+1. Brand identity
+Brand name: NẾP NÓN
+Primary tagline: Giữ nét đẹp Việt – Gửi trọn yêu thương.
+Brand positioning:
+A premium Vietnamese handmade conical hat brand rooted in traditional craftsmanship and family heritage in Thái Bình, Vietnam.
+Brand personality:
+
+* Elegant.
+* Authentic.
+* Warm.
+* Traditional.
+* Trustworthy.
+* Contemporary.
+
+Creative direction:
+Heritage Luxury × Vietnamese Craft Heritage.
+2. Official color tokens
+Implement these exact CSS variables:
+--color-forest: #263D25;
+--color-grass: #405A35;
+--color-ivory: #F8F4EA;
+--color-wood: #8B6846;
+--color-bamboo: #E8D9BD;
+--color-text: #292820;
+--color-muted: #777367;
+--color-white: #FFFFFF;
+Recommended usage:
+
+* 50% ivory.
+* 25% forest green.
+* 15% bamboo beige.
+* 7% secondary green.
+* 3% warm brown.
+
+Do not introduce unrelated colors without a clear design reason.
+3. Typography
+Use Google Fonts:
+Headings: Lora.
+Body: Be Vietnam Pro.
+Decorative accent: Dancing Script, only where Vietnamese character support is verified.
+Suggested typography scale:
+Desktop:
+
+* Hero title: 64–76px.
+* Section heading: 36–44px.
+* Product title: 18–22px.
+* Body: 15–17px.
+* Caption: 12–14px.
+
+Mobile:
+
+* Hero title: 36–44px.
+* Section heading: 27–32px.
+* Body: 14–16px.
+
+Use proper font weights and line heights.
+4. Logo system
+Create a custom scalable SVG logo.
+Logo concept:
+A minimal, elegant line-art Vietnamese conical hat with carefully balanced radial lines.
+Combine the icon with the NẾP NÓN wordmark.
+Create:
+
+* Primary horizontal logo.
+* Stacked logo.
+* Icon-only logo.
+* Monochrome dark version.
+* White/reverse version.
+
+Requirements:
+
+* Accurate Vietnamese typography.
+* Transparent background.
+* SVG vector format.
+* Consistent stroke width.
+* Appropriate clear space.
+* Responsive scaling.
+
+Never use an AI-generated raster logo as the final production logo.
+5. Photography direction
+Prioritize real photographs supplied by the business.
+Create reusable image components for:
+
+* Mother artisan portraits.
+* Handmade product photography.
+* Craftsmanship process.
+* Vietnamese countryside.
+* Lifestyle photographs.
+
+Use:
+
+* Natural lighting.
+* Warm ivory tones.
+* Authentic environments.
+* Documentary-style photography.
+* Elegant editorial compositions.
+
+Never misrepresent generated images as real photographs of the mother or actual products.
+6. Packaging visual system
+Design mockups and reusable assets for:
+
+* Kraft shopping bags.
+* Conical hat packaging boxes.
+* Product labels.
+* Thank-you cards.
+* QR code story cards.
+* Gift packaging.
+
+Use forest green, ivory, bamboo beige, and kraft textures.
+7. Website UI system
+Website appearance:
+Premium, editorial, minimalist, Vietnamese heritage.
+Apply:
+
+* Generous whitespace.
+* Elegant serif headlines.
+* Warm neutral backgrounds.
+* Forest green primary CTAs.
+* Restrained borders and shadows.
+* Consistent spacing.
+* Beautiful image compositions.
+* Subtle animations.
+
+Avoid:
+
+* Excessive rounded cards.
+* Generic ecommerce templates.
+* Excessive gradients.
+* Unnecessary decorative effects.
+* Overly commercial banners.
+
+8. Reusable design tokens
+Create a central design system.
+Suggested files:
+src/styles/tokens.css
+src/styles/globals.css
+src/components/brand/BrandLogo.tsx
+src/components/brand/BrandStory.tsx
+src/components/brand/BrandSectionHeading.tsx
+src/components/brand/BrandImage.tsx
+Ensure all components use the shared design tokens.
+9. Brand consistency validation
+Before completing the project:
+
+* Verify all pages use consistent colors.
+* Verify logo proportions.
+* Verify Vietnamese typography.
+* Verify responsive layouts.
+* Verify image aspect ratios.
+* Verify button consistency.
+* Verify accessibility and contrast.
+* Verify the overall visual identity.
+
+The final result must feel like one coherent premium Vietnamese artisan brand.
+Do not create a generic ecommerce website.
+Create a distinctive and emotionally engaging NẾP NÓN brand experience.

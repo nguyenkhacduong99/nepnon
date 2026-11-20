@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "slug": "truyen-thong",
+      "name": "Nón lá truyền thống",
+      "description": "Dáng nón quen thuộc, dùng hằng ngày — che nắng, che mưa."
+    },
+    {
+      "slug": "dac-biet",
+      "name": "Nón lá loại đặc biệt",
+      "description": "Lá được chọn kỹ hơn, đường khâu dày và đều hơn."
+    },
+    {
+      "slug": "qua-tang",
+      "name": "Nón lá quà tặng",
+      "description": "Đóng gói cẩn thận, phù hợp làm quà cho người thân, bạn bè, khách quốc tế."
+    },
+    {
+      "slug": "dat-theo-yeu-cau",
+      "name": "Nón lá đặt theo yêu cầu",
+      "description": "Dành cho doanh nghiệp, sự kiện, quà tặng số lượng lớn."
+    }
+  ]
+}

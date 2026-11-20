@@ -1,0 +1,395 @@
+{
+  "items": [
+    {
+      "slug": "non-la-truyen-thong-moc",
+      "name": "Nón lá truyền thống – Mộc",
+      "category": "truyen-thong",
+      "price": 120000,
+      "samplePrice": true,
+      "shortDescription": "Chiếc nón mộc mạc, dáng truyền thống, dùng hằng ngày.",
+      "description": [
+        "Chiếc nón lá giản dị nhất — đúng như những chiếc nón người Việt vẫn đội ra đồng, ra chợ. Lá được phơi, là phẳng rồi xếp lớp trên khung tre, khâu tay từng vòng.",
+        "Phù hợp để dùng hằng ngày, làm đạo cụ chụp ảnh hoặc làm kỷ niệm nhỏ về làng nghề."
+      ],
+      "images": [
+        {
+          "src": "/images/products/non-la-truyen-thong-moc-1.svg",
+          "alt": "Nón lá truyền thống – Mộc – mặt nghiêng",
+          "width": 1000,
+          "height": 1250,
+          "placeholder": true
+        },
+        {
+          "src": "/images/products/non-la-truyen-thong-moc-2.svg",
+          "alt": "Nón lá truyền thống – Mộc – nhìn từ trên",
+          "width": 1000,
+          "height": 1250,
+          "placeholder": true
+        },
+        {
+          "src": "/images/products/non-la-truyen-thong-moc-3.svg",
+          "alt": "Nón lá truyền thống – Mộc – cận cảnh đường khâu",
+          "width": 1000,
+          "height": 1250,
+          "placeholder": true
+        }
+      ],
+      "availability": "in_stock",
+      "leadTime": "Sẵn hàng, gửi trong 1–2 ngày",
+      "materials": [
+        "Lá nón tự nhiên",
+        "Vành nón bằng tre",
+        "Chỉ khâu nón"
+      ],
+      "specs": [
+        {
+          "label": "Kích thước",
+          "value": "Đường kính khoảng 40–42 cm (số liệu mẫu)",
+          "unverified": true
+        },
+        {
+          "label": "Trọng lượng",
+          "value": "Đang cập nhật",
+          "unverified": true
+        },
+        {
+          "label": "Quai",
+          "value": "Không kèm quai (có thể đặt thêm)",
+          "unverified": true
+        }
+      ],
+      "handmadeNotes": [
+        "Làm hoàn toàn bằng tay, từng lớp lá và từng mũi khâu.",
+        "Màu lá, đường gân có thể khác nhau nhẹ giữa các chiếc — đó là nét tự nhiên của lá."
+      ],
+      "care": [
+        "Để nón nơi khô ráo, thoáng mát; tránh để lâu dưới nắng gắt hoặc nơi ẩm.",
+        "Khi nón bị ướt, lau nhẹ bằng khăn khô và hong ở nơi thoáng gió, không phơi trực tiếp dưới nắng.",
+        "Treo nón hoặc đặt ngửa, tránh đè vật nặng lên nón để giữ dáng."
+      ],
+      "featured": true
+    },
+    {
+      "slug": "non-la-truyen-thong-quai-lua",
+      "name": "Nón lá truyền thống – Quai lụa",
+      "category": "truyen-thong",
+      "price": 150000,
+      "samplePrice": true,
+      "shortDescription": "Nón truyền thống kèm quai lụa mềm, đội vừa vặn.",
+      "description": [
+        "Phiên bản nón truyền thống được gắn sẵn quai mềm, dễ đội và giữ nón chắc hơn khi đi ngoài trời.",
+        "Màu quai có thể chọn khi đặt hàng — vui lòng ghi chú hoặc nhắn qua Zalo."
+      ],
+      "images": [
+        {
+          "src": "/images/products/non-la-truyen-thong-quai-lua-1.svg",
+          "alt": "Nón lá truyền thống – Quai lụa – mặt nghiêng",
+          "width": 1000,
+          "height": 1250,
+          "placeholder": true
+        },
+        {
+          "src": "/images/products/non-la-truyen-thong-quai-lua-2.svg",
+          "alt": "Nón lá truyền thống – Quai lụa – dáng nón",
+          "width": 1000,
+          "height": 1250,
+          "placeholder": true
+        },
+        {
+          "src": "/images/products/non-la-truyen-thong-quai-lua-3.svg",
+          "alt": "Nón lá truyền thống – Quai lụa – nhìn từ trên",
+          "width": 1000,
+          "height": 1250,
+          "placeholder": true
+        }
+      ],
+      "availability": "in_stock",
+      "leadTime": "Sẵn hàng, gửi trong 1–2 ngày",
+      "materials": [
+        "Lá nón tự nhiên",
+        "Vành nón bằng tre",
+        "Chỉ khâu nón",
+        "Quai vải lụa"
+      ],
+      "specs": [
+        {
+          "label": "Kích thước",
+          "value": "Đường kính khoảng 40–42 cm (số liệu mẫu)",
+          "unverified": true
+        },
+        {
+          "label": "Trọng lượng",
+          "value": "Đang cập nhật",
+          "unverified": true
+        },
+        {
+          "label": "Quai",
+          "value": "Quai lụa, màu theo lựa chọn",
+          "unverified": true
+        }
+      ],
+      "handmadeNotes": [
+        "Làm hoàn toàn bằng tay, từng lớp lá và từng mũi khâu.",
+        "Màu lá, đường gân có thể khác nhau nhẹ giữa các chiếc — đó là nét tự nhiên của lá."
+      ],
+      "care": [
+        "Để nón nơi khô ráo, thoáng mát; tránh để lâu dưới nắng gắt hoặc nơi ẩm.",
+        "Khi nón bị ướt, lau nhẹ bằng khăn khô và hong ở nơi thoáng gió, không phơi trực tiếp dưới nắng.",
+        "Treo nón hoặc đặt ngửa, tránh đè vật nặng lên nón để giữ dáng.",
+        "Quai có thể tháo ra giặt tay nhẹ nhàng."
+      ],
+      "featured": true
+    },
+    {
+      "slug": "non-la-dac-biet-la-chon-loc",
+      "name": "Nón lá đặc biệt – Lá chọn lọc",
+      "category": "dac-biet",
+      "price": 280000,
+      "samplePrice": true,
+      "shortDescription": "Lá chọn kỹ, màu đều, mũi khâu dày và mịn hơn.",
+      "description": [
+        "Dành cho những ai muốn một chiếc nón thật chỉn chu: lá được chọn lựa kỹ để màu sáng và đều, số vòng khâu dày hơn, bề mặt nón mịn.",
+        "Thời gian làm mỗi chiếc lâu hơn nón thường, nên số lượng có hạn mỗi tuần."
+      ],
+      "images": [
+        {
+          "src": "/images/products/non-la-dac-biet-la-chon-loc-1.svg",
+          "alt": "Nón lá đặc biệt – Lá chọn lọc – mặt nghiêng",
+          "width": 1000,
+          "height": 1250,
+          "placeholder": true
+        },
+        {
+          "src": "/images/products/non-la-dac-biet-la-chon-loc-2.svg",
+          "alt": "Nón lá đặc biệt – Lá chọn lọc – lá nón chọn lọc",
+          "width": 1000,
+          "height": 1250,
+          "placeholder": true
+        },
+        {
+          "src": "/images/products/non-la-dac-biet-la-chon-loc-3.svg",
+          "alt": "Nón lá đặc biệt – Lá chọn lọc – nhìn từ trên",
+          "width": 1000,
+          "height": 1250,
+          "placeholder": true
+        }
+      ],
+      "availability": "made_to_order",
+      "leadTime": "Làm theo đơn, khoảng 3–5 ngày (dự kiến)",
+      "materials": [
+        "Lá nón chọn lọc",
+        "Vành nón bằng tre",
+        "Chỉ khâu nón"
+      ],
+      "specs": [
+        {
+          "label": "Kích thước",
+          "value": "Đường kính khoảng 40–42 cm (số liệu mẫu)",
+          "unverified": true
+        },
+        {
+          "label": "Trọng lượng",
+          "value": "Đang cập nhật",
+          "unverified": true
+        }
+      ],
+      "handmadeNotes": [
+        "Làm hoàn toàn bằng tay, từng lớp lá và từng mũi khâu.",
+        "Màu lá, đường gân có thể khác nhau nhẹ giữa các chiếc — đó là nét tự nhiên của lá.",
+        "Mỗi chiếc được kiểm tra lại bằng tay trước khi gửi."
+      ],
+      "care": [
+        "Để nón nơi khô ráo, thoáng mát; tránh để lâu dưới nắng gắt hoặc nơi ẩm.",
+        "Khi nón bị ướt, lau nhẹ bằng khăn khô và hong ở nơi thoáng gió, không phơi trực tiếp dưới nắng.",
+        "Treo nón hoặc đặt ngửa, tránh đè vật nặng lên nón để giữ dáng."
+      ],
+      "featured": true
+    },
+    {
+      "slug": "non-la-qua-tang-hop-moc",
+      "name": "Nón lá quà tặng – Hộp mộc",
+      "category": "qua-tang",
+      "price": 350000,
+      "samplePrice": true,
+      "shortDescription": "Nón lá kèm hộp quà và thiệp viết tay — món quà mang hồn Việt.",
+      "description": [
+        "Một chiếc nón lá được đặt trong hộp quà giản dị, kèm thiệp để bạn gửi lời nhắn. Phù hợp tặng người thân ở xa, bạn bè quốc tế hoặc làm quà lưu niệm.",
+        "Nội dung thiệp có thể ghi trong phần ghi chú khi đặt hàng."
+      ],
+      "images": [
+        {
+          "src": "/images/products/non-la-qua-tang-hop-moc-1.svg",
+          "alt": "Nón lá quà tặng – Hộp mộc – hộp quà",
+          "width": 1000,
+          "height": 1250,
+          "placeholder": true
+        },
+        {
+          "src": "/images/products/non-la-qua-tang-hop-moc-2.svg",
+          "alt": "Nón lá quà tặng – Hộp mộc – chiếc nón",
+          "width": 1000,
+          "height": 1250,
+          "placeholder": true
+        },
+        {
+          "src": "/images/products/non-la-qua-tang-hop-moc-3.svg",
+          "alt": "Nón lá quà tặng – Hộp mộc – nhìn từ trên",
+          "width": 1000,
+          "height": 1250,
+          "placeholder": true
+        }
+      ],
+      "availability": "in_stock",
+      "leadTime": "Gửi trong 1–3 ngày",
+      "materials": [
+        "Nón lá truyền thống",
+        "Hộp quà",
+        "Thiệp"
+      ],
+      "specs": [
+        {
+          "label": "Kích thước",
+          "value": "Đường kính khoảng 40–42 cm (số liệu mẫu)",
+          "unverified": true
+        },
+        {
+          "label": "Quy cách hộp",
+          "value": "Đang cập nhật",
+          "unverified": true
+        }
+      ],
+      "handmadeNotes": [
+        "Làm hoàn toàn bằng tay, từng lớp lá và từng mũi khâu.",
+        "Màu lá, đường gân có thể khác nhau nhẹ giữa các chiếc — đó là nét tự nhiên của lá."
+      ],
+      "care": [
+        "Để nón nơi khô ráo, thoáng mát; tránh để lâu dưới nắng gắt hoặc nơi ẩm.",
+        "Khi nón bị ướt, lau nhẹ bằng khăn khô và hong ở nơi thoáng gió, không phơi trực tiếp dưới nắng.",
+        "Treo nón hoặc đặt ngửa, tránh đè vật nặng lên nón để giữ dáng."
+      ],
+      "featured": true
+    },
+    {
+      "slug": "non-la-qua-tang-bo-doi",
+      "name": "Nón lá quà tặng – Bộ đôi",
+      "category": "qua-tang",
+      "price": 650000,
+      "samplePrice": true,
+      "shortDescription": "Hai chiếc nón trong một hộp — quà cho cặp đôi, cho mẹ và con.",
+      "description": [
+        "Bộ quà gồm hai chiếc nón lá, đóng chung trong một hộp. Có thể chọn hai kích thước khác nhau (ví dụ một nón người lớn, một nón trẻ em) — vui lòng ghi chú khi đặt."
+      ],
+      "images": [
+        {
+          "src": "/images/products/non-la-qua-tang-bo-doi-1.svg",
+          "alt": "Nón lá quà tặng – Bộ đôi – hộp quà",
+          "width": 1000,
+          "height": 1250,
+          "placeholder": true
+        },
+        {
+          "src": "/images/products/non-la-qua-tang-bo-doi-2.svg",
+          "alt": "Nón lá quà tặng – Bộ đôi – dáng nón",
+          "width": 1000,
+          "height": 1250,
+          "placeholder": true
+        },
+        {
+          "src": "/images/products/non-la-qua-tang-bo-doi-3.svg",
+          "alt": "Nón lá quà tặng – Bộ đôi – mặt nghiêng",
+          "width": 1000,
+          "height": 1250,
+          "placeholder": true
+        }
+      ],
+      "availability": "made_to_order",
+      "leadTime": "Khoảng 2–4 ngày (dự kiến)",
+      "materials": [
+        "2 nón lá",
+        "Hộp quà",
+        "Thiệp"
+      ],
+      "specs": [
+        {
+          "label": "Kích thước",
+          "value": "Theo lựa chọn khi đặt hàng",
+          "unverified": true
+        },
+        {
+          "label": "Trọng lượng",
+          "value": "Đang cập nhật",
+          "unverified": true
+        }
+      ],
+      "handmadeNotes": [
+        "Làm hoàn toàn bằng tay, từng lớp lá và từng mũi khâu.",
+        "Màu lá, đường gân có thể khác nhau nhẹ giữa các chiếc — đó là nét tự nhiên của lá."
+      ],
+      "care": [
+        "Để nón nơi khô ráo, thoáng mát; tránh để lâu dưới nắng gắt hoặc nơi ẩm.",
+        "Khi nón bị ướt, lau nhẹ bằng khăn khô và hong ở nơi thoáng gió, không phơi trực tiếp dưới nắng.",
+        "Treo nón hoặc đặt ngửa, tránh đè vật nặng lên nón để giữ dáng."
+      ]
+    },
+    {
+      "slug": "non-la-dat-theo-yeu-cau",
+      "name": "Nón lá đặt theo yêu cầu",
+      "category": "dat-theo-yeu-cau",
+      "price": null,
+      "samplePrice": false,
+      "shortDescription": "Cho doanh nghiệp, sự kiện, quà tặng số lượng lớn. Báo giá theo số lượng.",
+      "description": [
+        "NẾP NÓN nhận làm nón lá cho sự kiện, quà tặng doanh nghiệp, đoàn khách du lịch hoặc các dịp đặc biệt.",
+        "Vì nón được làm hoàn toàn thủ công với năng lực khoảng 10–20 chiếc mỗi ngày, các đơn số lượng lớn cần đặt trước để xưởng sắp xếp thời gian. Hãy liên hệ để được tư vấn số lượng, thời gian và báo giá cụ thể."
+      ],
+      "images": [
+        {
+          "src": "/images/products/non-la-dat-theo-yeu-cau-1.svg",
+          "alt": "Nón lá đặt theo yêu cầu – dáng nón",
+          "width": 1000,
+          "height": 1250,
+          "placeholder": true
+        },
+        {
+          "src": "/images/products/non-la-dat-theo-yeu-cau-2.svg",
+          "alt": "Nón lá đặt theo yêu cầu – khung nón",
+          "width": 1000,
+          "height": 1250,
+          "placeholder": true
+        },
+        {
+          "src": "/images/products/non-la-dat-theo-yeu-cau-3.svg",
+          "alt": "Nón lá đặt theo yêu cầu – cận cảnh đường khâu",
+          "width": 1000,
+          "height": 1250,
+          "placeholder": true
+        }
+      ],
+      "availability": "made_to_order",
+      "leadTime": "Tùy số lượng — trao đổi trực tiếp",
+      "materials": [
+        "Theo yêu cầu"
+      ],
+      "specs": [
+        {
+          "label": "Số lượng",
+          "value": "Trao đổi theo nhu cầu"
+        },
+        {
+          "label": "Thời gian",
+          "value": "Tùy số lượng, năng lực khoảng 10–20 chiếc/ngày"
+        }
+      ],
+      "handmadeNotes": [
+        "Làm hoàn toàn bằng tay, từng lớp lá và từng mũi khâu.",
+        "Màu lá, đường gân có thể khác nhau nhẹ giữa các chiếc — đó là nét tự nhiên của lá."
+      ],
+      "care": [
+        "Để nón nơi khô ráo, thoáng mát; tránh để lâu dưới nắng gắt hoặc nơi ẩm.",
+        "Khi nón bị ướt, lau nhẹ bằng khăn khô và hong ở nơi thoáng gió, không phơi trực tiếp dưới nắng.",
+        "Treo nón hoặc đặt ngửa, tránh đè vật nặng lên nón để giữ dáng."
+      ],
+      "minQuantity": 1
+    }
+  ]
+}

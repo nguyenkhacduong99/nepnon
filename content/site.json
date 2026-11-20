@@ -1,0 +1,55 @@
+{
+  "brandName": "NẾP NÓN",
+  "tagline": "Giữ nét đẹp Việt – Gửi trọn yêu thương.",
+  "description": "Nón lá thủ công từ làng nghề Quảng Nạp, Thái Bình. Từng chiếc nón được làm bằng tay bởi mẹ và những người thợ trong gia đình.",
+  "origin": "Làng nghề Quảng Nạp, Thái Bình",
+  "logo": {
+    "horizontal": "/logo/nep-non-horizontal.svg",
+    "stacked": "/logo/nep-non-stacked.svg",
+    "icon": "/logo/nep-non-icon.svg"
+  },
+  "contact": {
+    "phone": "",
+    "zaloPhone": "",
+    "email": "",
+    "address": "Làng nghề Quảng Nạp, Thái Bình (địa chỉ chi tiết đang cập nhật)",
+    "workingHours": "8:00 – 20:00, tất cả các ngày trong tuần"
+  },
+  "social": {
+    "facebook": "",
+    "tiktok": ""
+  },
+  "commerce": {
+    "currency": "VND",
+    "locale": "vi-VN",
+    "dailyCapacity": "khoảng 10–20 chiếc mỗi ngày",
+    "shippingNote": "Giao hàng toàn quốc. Phí vận chuyển được báo khi xác nhận đơn."
+  },
+  "showSampleNotices": true,
+  "navigation": [
+    {
+      "href": "/",
+      "label": "Trang chủ"
+    },
+    {
+      "href": "/story",
+      "label": "Câu chuyện"
+    },
+    {
+      "href": "/products",
+      "label": "Sản phẩm"
+    },
+    {
+      "href": "/craftsmanship",
+      "label": "Quy trình làm nón"
+    },
+    {
+      "href": "/culture",
+      "label": "Góc văn hóa"
+    },
+    {
+      "href": "/contact",
+      "label": "Liên hệ"
+    }
+  ]
+}

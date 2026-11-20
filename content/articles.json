@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "slug": "non-la-trong-doi-song-nguoi-viet",
+      "title": "Nón lá trong đời sống người Việt",
+      "excerpt": "Che nắng, che mưa, làm quạt, làm gáo múc nước — chiếc nón gắn với từng sinh hoạt thường ngày.",
+      "image": {
+        "src": "/images/culture/article-y-nghia.svg",
+        "alt": "Chiếc nón lá trong đời sống người Việt",
+        "width": 1200,
+        "height": 800,
+        "placeholder": true
+      },
+      "readingTime": "4 phút đọc",
+      "body": [
+        "Với nhiều thế hệ người Việt, chiếc nón lá là vật dụng quen thuộc: che nắng khi ra đồng, che mưa khi đi chợ, lúc nghỉ tay lại thành chiếc quạt.",
+        "Nón lá cũng xuất hiện nhiều trong thơ ca, hội họa, nhiếp ảnh và trang phục biểu diễn, trở thành một hình ảnh gợi nhớ về Việt Nam với bạn bè quốc tế.",
+        "Ngày nay, bên cạnh công dụng hằng ngày, nón lá còn là món quà lưu niệm, đạo cụ chụp ảnh và một cách để giữ gìn nét đẹp văn hóa."
+      ]
+    },
+    {
+      "slug": "lang-nghe-quang-nap",
+      "title": "Về làng nghề Quảng Nạp",
+      "excerpt": "Nơi những chiếc nón của NẾP NÓN được làm ra.",
+      "image": {
+        "src": "/images/culture/article-lang-nghe.svg",
+        "alt": "Làng nghề làm nón",
+        "width": 1200,
+        "height": 800,
+        "placeholder": true
+      },
+      "readingTime": "3 phút đọc",
+      "body": [
+        "Quảng Nạp là làng nghề làm nón ở Thái Bình, nơi gia đình NẾP NÓN sinh sống và làm nghề.",
+        "[NỘI DUNG MẪU — cần bổ sung thông tin đã kiểm chứng về lịch sử, đặc điểm và con người của làng nghề trước khi xuất bản.]"
+      ],
+      "draft": true
+    },
+    {
+      "slug": "cach-bao-quan-non-la",
+      "title": "Cách bảo quản nón lá bền đẹp",
+      "excerpt": "Vài lưu ý đơn giản giúp chiếc nón giữ dáng và màu lá lâu hơn.",
+      "image": {
+        "src": "/images/culture/article-bao-quan.svg",
+        "alt": "Bảo quản nón lá",
+        "width": 1200,
+        "height": 800,
+        "placeholder": true
+      },
+      "readingTime": "2 phút đọc",
+      "body": [
+        "Để nón ở nơi khô ráo, thoáng mát. Độ ẩm cao lâu ngày có thể làm lá bị mốc hoặc xỉn màu.",
+        "Khi nón bị ướt mưa, lau nhẹ bằng khăn khô và hong ở nơi thoáng gió. Tránh phơi trực tiếp dưới nắng gắt vì lá có thể giòn và cong.",
+        "Treo nón lên móc hoặc đặt ngửa trên kệ, tránh đè vật nặng lên trên để nón không bị móp."
+      ]
+    }
+  ]
+}

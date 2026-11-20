@@ -1,0 +1,75 @@
+{
+  "items": [
+    {
+      "slug": "giao-hang",
+      "title": "Chính sách giao hàng",
+      "summary": "Cách NẾP NÓN đóng gói và gửi nón đến bạn.",
+      "sections": [
+        {
+          "heading": "Phạm vi giao hàng",
+          "body": [
+            "Giao hàng toàn quốc qua đơn vị vận chuyển. [Bổ sung: đơn vị vận chuyển sử dụng, có gửi quốc tế hay không.]"
+          ]
+        },
+        {
+          "heading": "Thời gian",
+          "body": [
+            "Sản phẩm có sẵn: chuẩn bị trong 1–2 ngày làm việc trước khi gửi.",
+            "Sản phẩm làm theo đơn: thời gian chuẩn bị được báo khi xác nhận đơn, tùy số lượng (năng lực khoảng 10–20 chiếc/ngày)."
+          ]
+        },
+        {
+          "heading": "Phí vận chuyển",
+          "body": [
+            "Phí vận chuyển được thông báo khi shop xác nhận đơn, tùy địa chỉ và số lượng. [Bổ sung: mức phí/ưu đãi cụ thể nếu có.]"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "doi-tra",
+      "title": "Chính sách đổi trả",
+      "summary": "Khi sản phẩm gặp vấn đề trong quá trình vận chuyển.",
+      "sections": [
+        {
+          "heading": "Trường hợp được hỗ trợ",
+          "body": [
+            "Nón bị móp, rách, hư hỏng do vận chuyển. Vui lòng quay video khi mở hàng và liên hệ shop trong vòng [số ngày] ngày kể từ khi nhận."
+          ]
+        },
+        {
+          "heading": "Lưu ý về sản phẩm thủ công",
+          "body": [
+            "Mỗi chiếc nón được làm thủ công nên có thể có những khác biệt nhỏ tự nhiên về màu lá, đường khâu. Đây không phải lỗi sản phẩm."
+          ]
+        },
+        {
+          "heading": "Cách thức",
+          "body": [
+            "[Bổ sung: quy trình đổi trả, ai chịu phí gửi lại, thời gian hoàn tiền nếu có.]"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bao-mat",
+      "title": "Chính sách bảo mật",
+      "summary": "Cách chúng tôi sử dụng thông tin bạn cung cấp.",
+      "sections": [
+        {
+          "heading": "Thông tin thu thập",
+          "body": [
+            "Khi đặt hàng, bạn cung cấp họ tên, số điện thoại, địa chỉ nhận hàng và ghi chú. Ở phiên bản hiện tại, website KHÔNG lưu các thông tin này lên máy chủ: nội dung đơn chỉ được tạo trên trình duyệt để bạn sao chép và gửi cho shop qua Zalo.",
+            "Giỏ hàng được lưu trong bộ nhớ trình duyệt (localStorage) của chính bạn."
+          ]
+        },
+        {
+          "heading": "Mục đích sử dụng",
+          "body": [
+            "Thông tin bạn gửi cho shop chỉ dùng để xác nhận, giao đơn hàng và hỗ trợ sau bán. Chúng tôi không bán hay chia sẻ cho bên thứ ba ngoài đơn vị vận chuyển."
+          ]
+        }
+      ]
+    }
+  ]
+}

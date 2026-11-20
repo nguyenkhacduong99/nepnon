@@ -1,0 +1,98 @@
+/* ============================================================
+   NẾP NÓN — DESIGN TOKENS (theo Brand Guideline chính thức)
+   ------------------------------------------------------------
+   Màu chính thức — KHÔNG thêm màu ngoài bộ này nếu không có lý do rõ ràng.
+   Tỉ lệ khuyến nghị: 50% ivory · 25% forest · 15% bamboo · 7% grass · 3% wood
+   Mọi component dùng class Tailwind sinh từ các token này:
+   bg-forest, text-grass, border-wood, bg-bamboo, text-text, text-muted…
+   ============================================================ */
+@theme {
+  --color-forest: #263d25;
+  --color-grass: #405a35;
+  --color-ivory: #f8f4ea;
+  --color-wood: #8b6846;
+  --color-bamboo: #e8d9bd;
+  --color-text: #292820;
+  --color-muted: #777367;
+  --color-white: #ffffff;
+
+  /* Token phái sinh (pha từ màu chính thức, không phải màu mới) */
+  --color-line: color-mix(in srgb, var(--color-bamboo) 70%, var(--color-wood) 30%);
+  --color-kraft: color-mix(in srgb, var(--color-wood) 55%, var(--color-bamboo) 45%);
+
+  /* Typography — Lora (tiêu đề) · Be Vietnam Pro (nội dung) · Dancing Script (điểm nhấn) */
+  --font-serif: var(--font-lora), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-be-vietnam), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-script: var(--font-dancing), cursive;
+
+  /* Spacing & layout */
+  --container-page: 80rem;
+  --spacing-section: 5rem;
+  --spacing-section-lg: 7rem;
+
+  /* Chuyển động nhẹ nhàng */
+  --ease-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --shadow-soft: 0 6px 24px -18px rgb(38 61 37 / 0.45);
+}
+
+/* ------------------------------------------------------------
+   THANG CHỮ (theo guideline)
+   Desktop: hero 64–76px · section 36–44px · product 18–22px · body 15–17px · caption 12–14px
+   Mobile:  hero 36–44px · section 27–32px · body 14–16px
+   ------------------------------------------------------------ */
+@utility type-display {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: 2.5rem; /* 40px */
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  @media (min-width: 768px) {
+    font-size: 3.5rem; /* 56px */
+  }
+  @media (min-width: 1024px) {
+    font-size: 4.5rem; /* 72px */
+    line-height: 1.08;
+  }
+}
+@utility type-page {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: 2.125rem; /* 34px */
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  @media (min-width: 1024px) {
+    font-size: 3.25rem; /* 52px */
+  }
+}
+@utility type-section {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: 1.875rem; /* 30px */
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  @media (min-width: 1024px) {
+    font-size: 2.625rem; /* 42px */
+  }
+}
+@utility type-title {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: 1.375rem; /* 22px */
+  line-height: 1.3;
+  @media (min-width: 1024px) {
+    font-size: 1.5rem; /* 24px */
+  }
+}
+@utility type-product {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: 1.1875rem; /* 19px */
+  line-height: 1.35;
+  @media (min-width: 1024px) {
+    font-size: 1.25rem; /* 20px */
+  }
+}
+@utility type-caption {
+  font-size: 0.8125rem; /* 13px */
+  line-height: 1.5;
+}

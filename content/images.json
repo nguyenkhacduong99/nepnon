@@ -1,0 +1,118 @@
+{
+  "hero": {
+    "src": "/images/hero/hero-artisan.svg",
+    "alt": "Người thợ làng Quảng Nạp đang chằm nón lá",
+    "width": 1920,
+    "height": 1100,
+    "placeholder": true
+  },
+  "storyMother": {
+    "src": "/images/story/mother-portrait.svg",
+    "alt": "Chân dung mẹ bên những chiếc nón lá",
+    "width": 1000,
+    "height": 1250,
+    "placeholder": true
+  },
+  "storyHands": {
+    "src": "/images/story/hands-stitching.svg",
+    "alt": "Đôi tay mẹ đang khâu từng vòng nón",
+    "width": 1200,
+    "height": 900,
+    "placeholder": true
+  },
+  "storyVillage": {
+    "src": "/images/story/quang-nap-village.svg",
+    "alt": "Làng nghề Quảng Nạp, Thái Bình",
+    "width": 1600,
+    "height": 900,
+    "placeholder": true
+  },
+  "storyHero": {
+    "src": "/images/story/story-hero.svg",
+    "alt": "Một góc làng nghề nón lá Quảng Nạp",
+    "width": 1920,
+    "height": 1000,
+    "placeholder": true
+  },
+  "workshop": [
+    {
+      "src": "/images/story/workshop-1.svg",
+      "alt": "Lá nón được phơi khô trong xưởng",
+      "width": 900,
+      "height": 1100,
+      "placeholder": true
+    },
+    {
+      "src": "/images/story/workshop-2.svg",
+      "alt": "Khung nón bằng tre với các vòng vành",
+      "width": 900,
+      "height": 1100,
+      "placeholder": true
+    },
+    {
+      "src": "/images/story/workshop-3.svg",
+      "alt": "Chiếc nón nhìn từ trên xuống",
+      "width": 900,
+      "height": 1100,
+      "placeholder": true
+    }
+  ],
+  "craft": [
+    {
+      "src": "/images/craftsmanship/step-1-nguyen-lieu.svg",
+      "alt": "Chọn lá nón và tre làm vành",
+      "width": 900,
+      "height": 1100,
+      "placeholder": true
+    },
+    {
+      "src": "/images/craftsmanship/step-2-xu-ly-la.svg",
+      "alt": "Phơi và là phẳng lá nón",
+      "width": 900,
+      "height": 1100,
+      "placeholder": true
+    },
+    {
+      "src": "/images/craftsmanship/step-3-khung-chang.svg",
+      "alt": "Dựng khung và chằm nón",
+      "width": 900,
+      "height": 1100,
+      "placeholder": true
+    },
+    {
+      "src": "/images/craftsmanship/step-4-hoan-thien.svg",
+      "alt": "Chiếc nón hoàn thiện",
+      "width": 900,
+      "height": 1100,
+      "placeholder": true
+    }
+  ],
+  "cultureHero": {
+    "src": "/images/culture/culture-hero.svg",
+    "alt": "Cánh đồng làng quê Việt Nam và chiếc nón lá",
+    "width": 1600,
+    "height": 900,
+    "placeholder": true
+  },
+  "cultureMeaning": {
+    "src": "/images/culture/article-y-nghia.svg",
+    "alt": "Chiếc nón lá trong đời sống người Việt",
+    "width": 1200,
+    "height": 800,
+    "placeholder": true
+  },
+  "cultureVillage": {
+    "src": "/images/culture/article-lang-nghe.svg",
+    "alt": "Làng nghề làm nón",
+    "width": 1200,
+    "height": 800,
+    "placeholder": true
+  },
+  "cultureCare": {
+    "src": "/images/culture/article-bao-quan.svg",
+    "alt": "Bảo quản nón lá",
+    "width": 1200,
+    "height": 800,
+    "placeholder": true
+  }
+}

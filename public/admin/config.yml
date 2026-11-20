@@ -1,0 +1,392 @@
+# ============================================================
+# NẾP NÓN — CẤU HÌNH DECAP CMS (trang quản trị /admin)
+# ------------------------------------------------------------
+# Khi đã đưa code lên GitHub: sửa "repo" bên dưới thành <tài-khoản>/<tên-repo>
+# và "base_url" thành tên miền chính thức. Xem README, mục "Trang quản trị".
+# ============================================================
+backend:
+  name: github
+  repo: nguyenkhacduong99/nepnon
+  branch: main
+  base_url: https://nepnon.vn # TODO: tên miền chính thức của website
+  auth_endpoint: api/decap/auth
+  commit_messages:
+    update: "Cập nhật {{collection}} “{{slug}}” qua trang quản trị"
+
+# Chạy thử trên máy: "npm run cms" (song song "npm run dev") rồi mở http://localhost:3000/admin
+local_backend: true
+
+locale: vi
+site_url: https://nepnon.vn
+logo_url: /logo/nep-non-stacked.svg
+media_folder: public/images/uploads
+public_folder: /images/uploads
+publish_mode: simple
+show_preview_links: false
+
+collections:
+  # ======================= THÔNG TIN CHUNG =======================
+  - name: settings
+    label: "Thông tin chung"
+    editor: { preview: false }
+    files:
+      - name: site
+        label: "Thương hiệu & liên hệ"
+        file: content/site.json
+        fields:
+          - { label: "Tên thương hiệu", name: brandName, widget: string }
+          - { label: "Khẩu hiệu", name: tagline, widget: string }
+          - { label: "Giới thiệu ngắn (hiện ở chân trang & Google)", name: description, widget: text }
+          - { label: "Nguồn gốc", name: origin, widget: string }
+          - label: "Liên hệ"
+            name: contact
+            widget: object
+            fields:
+              - { label: "Số điện thoại", name: phone, widget: string, required: false, hint: "Để trống thì không hiện trên web" }
+              - { label: "Số Zalo (chỉ chữ số)", name: zaloPhone, widget: string, required: false, pattern: ['^[0-9]*$', "Chỉ nhập chữ số, ví dụ 0912345678"] }
+              - { label: "Email", name: email, widget: string, required: false }
+              - { label: "Địa chỉ", name: address, widget: string }
+              - { label: "Giờ hỗ trợ", name: workingHours, widget: string }
+          - label: "Mạng xã hội"
+            name: social
+            widget: object
+            fields:
+              - { label: "Link Facebook", name: facebook, widget: string, required: false }
+              - { label: "Link TikTok", name: tiktok, widget: string, required: false }
+          - label: "Bán hàng"
+            name: commerce
+            widget: object
+            fields:
+              - { label: "Tiền tệ", name: currency, widget: hidden }
+              - { label: "Ngôn ngữ", name: locale, widget: hidden }
+              - { label: "Năng lực sản xuất", name: dailyCapacity, widget: string }
+              - { label: "Ghi chú giao hàng", name: shippingNote, widget: text }
+          - { label: "Hiện các nhãn “Giá mẫu / Ảnh minh họa / Nội dung mẫu”", name: showSampleNotices, widget: boolean, hint: "Tắt khi đã thay toàn bộ giá, ảnh, câu chuyện thật" }
+          - label: "Logo"
+            name: logo
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "Logo ngang", name: horizontal, widget: hidden }
+              - { label: "Logo dọc", name: stacked, widget: hidden }
+              - { label: "Biểu tượng", name: icon, widget: hidden }
+          - label: "Menu"
+            name: navigation
+            widget: list
+            allow_add: false
+            summary: "{{fields.label}}"
+            fields:
+              - { label: "Đường dẫn", name: href, widget: hidden }
+              - { label: "Tên hiển thị", name: label, widget: string }
+
+  # ======================= CHỮ TRÊN CÁC TRANG =======================
+  - name: pages
+    label: "Chữ trên các trang"
+    editor: { preview: false }
+    files:
+      - name: pages
+        label: "Tiêu đề, nút bấm, giới thiệu"
+        file: content/pages.json
+        fields:
+          - { label: "Dòng chạy đầu trang", name: announcement, widget: list, field: { label: "Dòng", name: m, widget: string } }
+          - label: "Trang chủ"
+            name: home
+            widget: object
+            fields:
+              - label: "Ảnh lớn đầu trang (Hero)"
+                name: hero
+                widget: object
+                fields:
+                  - { label: "Tiêu đề", name: title, widget: string }
+                  - { label: "Tiêu đề – phần nhấn màu", name: titleAccent, widget: string }
+                  - { label: "Dòng chữ viết tay", name: subtitle, widget: string }
+                  - { label: "Đoạn giới thiệu", name: text, widget: text }
+                  - { label: "Nút chính", name: primaryButton, widget: string }
+                  - { label: "Nút phụ", name: secondaryButton, widget: string }
+              - label: "Mục sản phẩm nổi bật"
+                name: featured
+                widget: object
+                fields:
+                  - { label: "Dòng nhỏ", name: eyebrow, widget: string }
+                  - { label: "Tiêu đề", name: title, widget: string }
+                  - { label: "Giới thiệu", name: intro, widget: text }
+                  - { label: "Chữ link “xem tất cả”", name: linkLabel, widget: string }
+              - label: "Mục câu chuyện"
+                name: story
+                widget: object
+                fields:
+                  - { label: "Dòng nhỏ", name: eyebrow, widget: string }
+                  - { label: "Tiêu đề", name: title, widget: string }
+                  - { label: "Tiêu đề – phần nhấn màu", name: titleAccent, widget: string }
+                  - { label: "Câu trích dẫn trên ảnh", name: quote, widget: string }
+                  - { label: "Người nói / ký tên", name: quoteAuthor, widget: string }
+                  - { label: "Nút", name: button, widget: string }
+              - label: "Mục quy trình"
+                name: craft
+                widget: object
+                fields:
+                  - { label: "Dòng nhỏ", name: eyebrow, widget: string }
+                  - { label: "Tiêu đề", name: title, widget: string }
+                  - { label: "Giới thiệu", name: intro, widget: text }
+                  - { label: "Nút", name: button, widget: string }
+              - label: "Mục vì sao chọn chúng tôi"
+                name: why
+                widget: object
+                fields:
+                  - { label: "Dòng nhỏ", name: eyebrow, widget: string }
+                  - { label: "Tiêu đề", name: title, widget: string }
+              - label: "Mục góc văn hóa"
+                name: culture
+                widget: object
+                fields:
+                  - { label: "Dòng nhỏ", name: eyebrow, widget: string }
+                  - { label: "Tiêu đề", name: title, widget: string }
+                  - { label: "Đoạn văn", name: text, widget: text }
+                  - { label: "Nút", name: button, widget: string }
+              - label: "Mục đánh giá"
+                name: testimonials
+                widget: object
+                fields:
+                  - { label: "Dòng nhỏ", name: eyebrow, widget: string }
+                  - { label: "Tiêu đề", name: title, widget: string }
+          - label: "Khối kêu gọi cuối trang"
+            name: closingCta
+            widget: object
+            fields:
+              - { label: "Tiêu đề", name: title, widget: string }
+              - { label: "Đoạn văn", name: text, widget: text }
+              - { label: "Nút", name: button, widget: string }
+              - { label: "Nút Zalo", name: zaloButton, widget: string }
+          - label: "Trang sản phẩm"
+            name: products
+            widget: object
+            fields:
+              - { label: "Dòng nhỏ", name: eyebrow, widget: string }
+              - { label: "Tiêu đề", name: title, widget: string }
+              - { label: "Giới thiệu", name: intro, widget: text }
+              - { label: "Tiêu đề khối cuối trang", name: ctaTitle, widget: string }
+              - { label: "Đoạn văn khối cuối trang", name: ctaText, widget: text }
+              - { label: "Ghi chú sản phẩm thủ công (trang chi tiết)", name: handmadeNote, widget: text }
+          - label: "Trang câu chuyện"
+            name: story
+            widget: object
+            fields:
+              - { label: "Dòng nhỏ", name: eyebrow, widget: string }
+              - { label: "Tiêu đề", name: title, widget: string }
+              - { label: "Tiêu đề – phần nhấn màu", name: titleAccent, widget: string }
+              - { label: "Tiêu đề mục quy trình", name: processTitle, widget: string }
+              - { label: "Tiêu đề mục triết lý", name: philosophyTitle, widget: string }
+          - label: "Trang quy trình làm nón"
+            name: craftsmanship
+            widget: object
+            fields:
+              - { label: "Dòng nhỏ", name: eyebrow, widget: string }
+              - { label: "Tiêu đề", name: title, widget: string }
+              - { label: "Giới thiệu", name: intro, widget: text }
+          - label: "Trang góc văn hóa"
+            name: culture
+            widget: object
+            fields:
+              - { label: "Dòng nhỏ", name: eyebrow, widget: string }
+              - { label: "Tiêu đề", name: title, widget: string }
+              - { label: "Giới thiệu", name: intro, widget: text }
+          - label: "Trang liên hệ"
+            name: contact
+            widget: object
+            fields:
+              - { label: "Dòng nhỏ", name: eyebrow, widget: string }
+              - { label: "Tiêu đề", name: title, widget: string }
+              - { label: "Giới thiệu", name: intro, widget: text }
+              - { label: "Khối đơn số lượng lớn – dòng nhỏ", name: bulkEyebrow, widget: string }
+              - { label: "Khối đơn số lượng lớn – tiêu đề", name: bulkTitle, widget: string }
+              - { label: "Khối đơn số lượng lớn – đoạn văn", name: bulkText, widget: text }
+              - { label: "Khối đơn số lượng lớn – danh sách gợi ý", name: bulkChecklist, widget: list, field: { label: "Ý", name: item, widget: string } }
+
+  # ======================= SẢN PHẨM =======================
+  - name: shop
+    label: "Sản phẩm & danh mục"
+    editor: { preview: false }
+    files:
+      - name: products
+        label: "Sản phẩm"
+        file: content/products.json
+        fields:
+          - label: "Danh sách sản phẩm"
+            name: items
+            widget: list
+            summary: "{{fields.name}}"
+            collapsed: true
+            fields:
+              - { label: "Tên sản phẩm", name: name, widget: string }
+              - { label: "Đường dẫn (không dấu, ví dụ non-la-moc)", name: slug, widget: string, pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$', "Chỉ chữ thường không dấu, số và dấu gạch ngang"], hint: "Không nên đổi sau khi đã đăng, vì link cũ sẽ hỏng" }
+              - { label: "Danh mục", name: category, widget: relation, collection: shop, file: categories, search_fields: ["items.*.name"], display_fields: ["items.*.name"], value_field: "items.*.slug" }
+              - { label: "Giá (VND)", name: price, widget: number, value_type: int, min: 0, required: false, hint: "Để trống = Báo giá theo yêu cầu" }
+              - { label: "Đây là giá mẫu (chưa chính thức)", name: samplePrice, widget: boolean, default: false }
+              - { label: "Mô tả ngắn", name: shortDescription, widget: text }
+              - { label: "Mô tả chi tiết", name: description, widget: list, field: { label: "Đoạn", name: p, widget: text } }
+              - label: "Ảnh sản phẩm (ảnh đầu là ảnh chính)"
+                name: images
+                widget: list
+                min: 1
+                summary: "{{fields.alt}}"
+                fields: &image
+                  - { label: "Ảnh", name: src, widget: image, choose_url: false, hint: "Ảnh ngang hoặc dọc, nên dùng JPG/WEBP dưới 1MB" }
+                  - { label: "Mô tả ảnh (cho người khiếm thị & Google)", name: alt, widget: string }
+                  - { label: "Chiều rộng ảnh (px)", name: width, widget: number, value_type: int, default: 1200, hint: "Xem trong thuộc tính ảnh. Dùng để giữ đúng tỉ lệ." }
+                  - { label: "Chiều cao ảnh (px)", name: height, widget: number, value_type: int, default: 1500 }
+                  - { label: "Đây là ảnh minh họa (chưa phải ảnh thật)", name: placeholder, widget: boolean, default: false, required: false }
+              - label: "Tình trạng"
+                name: availability
+                widget: select
+                options:
+                  - { label: "Có sẵn", value: in_stock }
+                  - { label: "Làm theo đơn", value: made_to_order }
+                  - { label: "Tạm hết", value: out_of_stock }
+              - { label: "Thời gian chuẩn bị", name: leadTime, widget: string, required: false }
+              - { label: "Chất liệu", name: materials, widget: list, field: { label: "Chất liệu", name: m, widget: string } }
+              - label: "Thông số"
+                name: specs
+                widget: list
+                summary: "{{fields.label}}: {{fields.value}}"
+                fields:
+                  - { label: "Tên thông số", name: label, widget: string }
+                  - { label: "Giá trị", name: value, widget: string }
+                  - { label: "Cần xác nhận lại", name: unverified, widget: boolean, default: false, required: false }
+              - { label: "Đặc điểm thủ công", name: handmadeNotes, widget: list, field: { label: "Ý", name: n, widget: text } }
+              - { label: "Hướng dẫn bảo quản", name: care, widget: list, field: { label: "Ý", name: n, widget: text } }
+              - { label: "Hiện ở trang chủ (nổi bật)", name: featured, widget: boolean, default: false, required: false }
+              - { label: "Số lượng tối thiểu", name: minQuantity, widget: number, value_type: int, required: false }
+      - name: categories
+        label: "Danh mục sản phẩm"
+        file: content/categories.json
+        fields:
+          - label: "Danh mục"
+            name: items
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Tên danh mục", name: name, widget: string }
+              - { label: "Đường dẫn (không dấu)", name: slug, widget: string, pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$', "Chỉ chữ thường không dấu, số và dấu gạch ngang"] }
+              - { label: "Mô tả", name: description, widget: text }
+
+  # ======================= CÂU CHUYỆN & BÀI VIẾT =======================
+  - name: stories
+    label: "Câu chuyện & bài viết"
+    editor: { preview: false }
+    files:
+      - name: story
+        label: "Câu chuyện, quy trình, triết lý"
+        file: content/story.json
+        fields:
+          - label: "Câu chuyện ở trang chủ (4 ý)"
+            name: homeStory
+            widget: list
+            summary: "{{fields.title}}"
+            fields: &storyBlock
+              - { label: "Dòng nhỏ phía trên", name: eyebrow, widget: string }
+              - { label: "Tiêu đề", name: title, widget: string }
+              - { label: "Các đoạn văn", name: body, widget: list, field: { label: "Đoạn", name: p, widget: text } }
+              - { label: "Nội dung mẫu, cần gia đình viết lại", name: draft, widget: boolean, default: false, required: false }
+          - { label: "Câu chuyện của mẹ (trang Câu chuyện)", name: motherStory, widget: list, summary: "{{fields.title}}", fields: *storyBlock }
+          - label: "Triết lý thương hiệu"
+            name: brandPhilosophy
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Từ khóa", name: title, widget: string }
+              - { label: "Diễn giải", name: text, widget: text }
+          - label: "Các công đoạn làm nón"
+            name: craftSteps
+            widget: list
+            summary: "{{fields.step}}. {{fields.title}}"
+            fields:
+              - { label: "Số thứ tự", name: step, widget: number, value_type: int }
+              - { label: "Tên công đoạn", name: title, widget: string }
+              - { label: "Tóm tắt", name: summary, widget: string }
+              - { label: "Mô tả chi tiết", name: detail, widget: text }
+              - { label: "Ảnh", name: image, widget: object, fields: *image }
+          - label: "Lý do chọn NẾP NÓN"
+            name: trustPoints
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - label: "Biểu tượng"
+                name: icon
+                widget: select
+                options:
+                  - { label: "Bàn tay", value: hand }
+                  - { label: "Kéo", value: scissors }
+                  - { label: "Hộp quà", value: package }
+                  - { label: "Tin nhắn", value: message }
+              - { label: "Tiêu đề", name: title, widget: string }
+              - { label: "Mô tả", name: text, widget: string }
+      - name: articles
+        label: "Bài viết Góc văn hóa"
+        file: content/articles.json
+        fields:
+          - label: "Bài viết"
+            name: items
+            widget: list
+            summary: "{{fields.title}}"
+            collapsed: true
+            fields:
+              - { label: "Tiêu đề", name: title, widget: string }
+              - { label: "Đường dẫn (không dấu)", name: slug, widget: string, pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$', "Chỉ chữ thường không dấu, số và dấu gạch ngang"] }
+              - { label: "Tóm tắt", name: excerpt, widget: text }
+              - { label: "Thời gian đọc", name: readingTime, widget: string, default: "3 phút đọc" }
+              - { label: "Ảnh bìa", name: image, widget: object, fields: *image }
+              - { label: "Nội dung", name: body, widget: list, field: { label: "Đoạn", name: p, widget: text } }
+              - { label: "Bản nháp, cần kiểm chứng", name: draft, widget: boolean, default: false, required: false }
+      - name: testimonials
+        label: "Đánh giá khách hàng"
+        file: content/testimonials.json
+        fields:
+          - label: "Đánh giá"
+            name: items
+            widget: list
+            summary: "{{fields.author}}"
+            fields:
+              - { label: "Lời nhận xét", name: quote, widget: text }
+              - { label: "Tên khách", name: author, widget: string }
+              - { label: "Thông tin thêm", name: context, widget: string, hint: "Ví dụ: Khách mua quà tặng · Hà Nội" }
+              - { label: "Nội dung minh họa (chưa phải đánh giá thật)", name: demo, widget: boolean, default: false, hint: "Đánh giá minh họa tự ẩn khi tắt nhãn nội dung mẫu" }
+      - name: policies
+        label: "Chính sách"
+        file: content/policies.json
+        fields:
+          - label: "Chính sách"
+            name: items
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Tiêu đề", name: title, widget: string }
+              - { label: "Đường dẫn (không dấu)", name: slug, widget: string, pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$', "Chỉ chữ thường không dấu, số và dấu gạch ngang"] }
+              - { label: "Tóm tắt", name: summary, widget: string }
+              - label: "Các mục"
+                name: sections
+                widget: list
+                summary: "{{fields.heading}}"
+                fields:
+                  - { label: "Tiêu đề mục", name: heading, widget: string }
+                  - { label: "Nội dung", name: body, widget: list, field: { label: "Đoạn", name: p, widget: text } }
+
+  # ======================= ẢNH CHUNG =======================
+  - name: media
+    label: "Ảnh chung"
+    editor: { preview: false }
+    files:
+      - name: images
+        label: "Ảnh các trang"
+        file: content/images.json
+        fields:
+          - { label: "Ảnh lớn trang chủ", name: hero, widget: object, fields: *image }
+          - { label: "Chân dung mẹ", name: storyMother, widget: object, fields: *image }
+          - { label: "Đôi tay khâu nón", name: storyHands, widget: object, fields: *image }
+          - { label: "Làng nghề", name: storyVillage, widget: object, fields: *image }
+          - { label: "Ảnh đầu trang Câu chuyện", name: storyHero, widget: object, fields: *image }
+          - { label: "Ảnh xưởng (3 ảnh)", name: workshop, widget: list, summary: "{{fields.alt}}", fields: *image }
+          - { label: "Ảnh quy trình (dự phòng)", name: craft, widget: list, summary: "{{fields.alt}}", fields: *image }
+          - { label: "Ảnh Góc văn hóa", name: cultureHero, widget: object, fields: *image }
+          - { label: "Ảnh bài “ý nghĩa nón lá”", name: cultureMeaning, widget: object, fields: *image }
+          - { label: "Ảnh bài “làng nghề”", name: cultureVillage, widget: object, fields: *image }
+          - { label: "Ảnh bài “bảo quản”", name: cultureCare, widget: object, fields: *image }

@@ -1,0 +1,96 @@
+{
+  "announcement": [
+    "Sản phẩm thủ công từ làng nghề Thái Bình",
+    "Gìn giữ nét đẹp Việt",
+    "Giao hàng toàn quốc"
+  ],
+  "home": {
+    "hero": {
+      "title": "Nón lá",
+      "titleAccent": "Việt Nam",
+      "subtitle": "Tinh hoa làng nghề – Gửi trọn yêu thương",
+      "text": "Từ đôi tay của mẹ, những chiếc nón lá mộc mạc mang đậm hồn Việt được làm nên bằng sự tỉ mỉ và tình yêu nghề.",
+      "primaryButton": "Khám phá sản phẩm",
+      "secondaryButton": "Câu chuyện của mẹ"
+    },
+    "featured": {
+      "eyebrow": "Bộ sưu tập",
+      "title": "Những chiếc nón mang hồn Việt",
+      "intro": "Mỗi chiếc nón là một sản phẩm thủ công, được làm từng chiếc tại xưởng gia đình.",
+      "linkLabel": "Xem tất cả sản phẩm"
+    },
+    "story": {
+      "eyebrow": "Câu chuyện",
+      "title": "Chiếc nón lá và",
+      "titleAccent": "tình yêu của mẹ",
+      "quote": "Mỗi chiếc nón là một mảnh thương của mẹ.",
+      "quoteAuthor": "— NẾP NÓN",
+      "button": "Khám phá câu chuyện của chúng tôi"
+    },
+    "craft": {
+      "eyebrow": "Quy trình",
+      "title": "Từ đôi tay người thợ – Thành hình chiếc nón",
+      "intro": "Không máy móc, không dây chuyền. Một chiếc nón đi qua nhiều công đoạn thủ công — từ tàu lá còn xanh đến chiếc nón trắng ngà trên tay bạn.",
+      "button": "Xem chi tiết quy trình làm nón"
+    },
+    "why": {
+      "eyebrow": "Vì sao chọn chúng tôi",
+      "title": "Vì sao chọn NẾP NÓN?"
+    },
+    "culture": {
+      "eyebrow": "Góc văn hóa",
+      "title": "Nón lá – Một nét đẹp của người Việt",
+      "text": "Chiếc nón che nắng, che mưa đã đi cùng người Việt qua bao thế hệ — trên cánh đồng, ở phiên chợ quê, trong thơ ca và trên những tà áo dài. Với nhiều người, nón lá là một hình ảnh gợi nhớ về quê hương.",
+      "button": "Đọc thêm ở Góc văn hóa"
+    },
+    "testimonials": {
+      "eyebrow": "Khách hàng nói gì",
+      "title": "Những lời gửi lại"
+    }
+  },
+  "closingCta": {
+    "title": "Mang một nét đẹp Việt về nhà",
+    "text": "Một chiếc nón cho chính mình, hay một món quà gửi người thương — mỗi chiếc đều được làm bằng tay và gói ghém cẩn thận.",
+    "button": "Chọn nón ngay",
+    "zaloButton": "Nhắn Zalo tư vấn"
+  },
+  "products": {
+    "eyebrow": "Cửa hàng",
+    "title": "Nón lá thủ công",
+    "intro": "Mỗi chiếc nón được làm bằng tay tại xưởng gia đình. Chọn chiếc nón dành cho bạn, hoặc nhắn cho chúng tôi để được tư vấn.",
+    "ctaTitle": "Cần số lượng lớn hay mẫu riêng?",
+    "ctaText": "Chúng tôi nhận đặt nón cho sự kiện, quà tặng doanh nghiệp, đoàn khách. Hãy nhắn để được tư vấn thời gian và báo giá.",
+    "handmadeNote": "Mỗi chiếc nón được làm thủ công nên có thể có những khác biệt nhỏ tự nhiên. Đây chính là nét riêng của sản phẩm thủ công."
+  },
+  "story": {
+    "eyebrow": "Câu chuyện của mẹ",
+    "title": "Có những điều đẹp đẽ,",
+    "titleAccent": "nên được gìn giữ.",
+    "processTitle": "Một chiếc nón ra đời như thế nào",
+    "philosophyTitle": "Triết lý của NẾP NÓN"
+  },
+  "craftsmanship": {
+    "eyebrow": "Quy trình làm nón",
+    "title": "Từ đôi tay người thợ – Thành hình chiếc nón",
+    "intro": "Mỗi chiếc nón NẾP NÓN đi qua bốn chặng chính, tất cả đều làm bằng tay."
+  },
+  "culture": {
+    "eyebrow": "Góc văn hóa",
+    "title": "Nón lá – Một nét đẹp của người Việt",
+    "intro": "Ghi chép nhỏ về chiếc nón lá, làng nghề và cách giữ gìn một món đồ thủ công."
+  },
+  "contact": {
+    "eyebrow": "Liên hệ",
+    "title": "Trò chuyện cùng NẾP NÓN",
+    "intro": "Hỏi về sản phẩm, đặt nón làm quà, hay đặt số lượng lớn cho sự kiện — chúng tôi luôn sẵn lòng trả lời.",
+    "bulkEyebrow": "Đơn số lượng lớn",
+    "bulkTitle": "Đặt nón cho sự kiện & doanh nghiệp",
+    "bulkText": "Nón được làm hoàn toàn thủ công. Với đơn số lượng lớn, vui lòng liên hệ sớm để chúng tôi sắp xếp thời gian và báo giá chính xác.",
+    "bulkChecklist": [
+      "Số lượng và loại nón cần đặt",
+      "Thời gian cần nhận hàng",
+      "Yêu cầu đóng gói, thiệp, quai",
+      "Địa điểm giao hàng"
+    ]
+  }
+}
